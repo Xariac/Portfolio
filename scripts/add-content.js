@@ -22,5 +22,15 @@ price = 5;
 quantity = 14;
 total = price * quantity;
 
-var el = document.getElementById('cost');
-el.textContent = total + ' zł';
+//var el = document.getElementById('cost');
+//el.textContent = total + ' zł';
+
+var username;
+var message;
+username = 'Jarek';
+message = 'Zapraszam do zapoznania się z moim portfolio';
+
+var elName = document.getElementById('name');
+elName.textContent = username;
+var elNote = document.getElementById('note');
+elNote.textContent = message;
