@@ -40,7 +40,12 @@ var shipping;
 inStock = true;
 shipping = false;
 
-var elStock = document.getElementById('stock');
+/*var elStock = document.getElementById('stock');
 elStock.className = inStock;
 var elShip = document.getElementById('shipping');
-elShip.className = shipping;
+elShip.className = shipping;*/
+
+var colors = ['bialy','czarny','inny'];
+colors[2] = 'zielony';
+var el = document.getElementById('colors');
+el.textContent = colors[2];
