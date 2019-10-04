@@ -7,7 +7,7 @@ var sign = 'Dalaran';
 var tiles = sign.length;
 var subTotal = tiles * 5;
 var shipping = 7;
-var grandTotal subTotal * shipping;
+var grandTotal = subTotal + shipping;
 
 var el = document.getElementById('greeting');
 el.textContent = welcome;
